@@ -1,3 +1,24 @@
+* {
+    border: 1px solid red;
+}
+
 body {
-    background-color: navy;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.header {
+    background-color: #1f2937;
+}
+
+.header,
+.random-info,
+.quote,
+.action {
+    flex: 1
+}
+
+.footer {
+    flex-shrink: 0;
 }
