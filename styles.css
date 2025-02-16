@@ -1,9 +1,5 @@
-* {
-    border: 1px solid yellow;
-}
-
 body {
-    margin: 0;
+    margin: 0 100px;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -22,7 +18,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    height: 200px;
+    height: 70px;
 }
 
 .logo {
@@ -48,6 +44,11 @@ a {
     text-decoration: none;
     color: #E5E7EB;
     font-size: 18px;
+}
+
+.sign-up {
+    display: flex;
+    background-color: #1F2937;
 }
 
 .content {
