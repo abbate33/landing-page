@@ -1,5 +1,5 @@
 * {
-    /* border: 1px solid red; */
+    border: 1px solid red;
     margin: 0;
     padding: 0;
 }
@@ -100,4 +100,29 @@ button {
     font-weight: 900;
     text-align: center;
     margin: 30px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.card {
+    flex: 1;
+}
+
+.box {
+    height: 150px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 5px solid #3882f6;
+}
+
+.text {
+    text-align: center;
+    line-height: 1.6;
+    color: rgb(110, 110, 110);
 }
