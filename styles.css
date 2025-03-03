@@ -86,12 +86,16 @@ button {
 }
 
 .placeholder {
-    width: 50%;
+    min-width: 50%;
     background-color: hwb(0 47% 53%);
     color: #f9faf8;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+#hero-desc {
+    padding: 20px;
 }
 
 #info-header {
